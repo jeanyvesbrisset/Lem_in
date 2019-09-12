@@ -10,19 +10,19 @@ To compile, run 'make'. This will compile 'lem-in'. Execute with a map as a para
 
 > ./lem-in < map_example
 
-Input format example:
+Input format example:\
 
-2 ---> number of ants
-##start --> defines the start room
-A 10 10
-B 10 10
-##end ---> defines the end room
-C 10 10
-A-B -----> defines a tube
-B-C
+2 ---> number of ants\
+##start --> defines the start room\
+A 10 10\
+B 10 10\
+##end ---> defines the end room\
+C 10 10\
+A-B -----> defines a tube\
+B-C\
 
-Output format example:
+Output format example:\
 
-L1-A --> first ant goes in room B
-L1-C, L2-A ---> first ant goes in room C (end), second ant in room B
-L2-C --> second ant goes in room C
+L1-A --> first ant goes in room B\
+L1-C, L2-A ---> first ant goes in room C (end), second ant in room B\
+L2-C --> second ant goes in room C\
