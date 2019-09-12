@@ -21,8 +21,10 @@ C 10 10\
 A-B -----> defines a tube\
 B-C
 
+All ants are in the start room at the beginning
+
 Output format example:
 
-L1-A --> first ant goes in room B\
-L1-C, L2-A ---> first ant goes in room C (end), second ant in room B\
+L1-B --> first ant goes in room B\
+L1-C, L2-B ---> first ant goes in room C (end), second ant in room B\
 L2-C --> second ant goes in room C
